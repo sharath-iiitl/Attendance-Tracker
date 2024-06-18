@@ -1,0 +1,116 @@
+// .sidebar {
+//   border-right: 0.5px solid  rgb(231, 228, 228);
+//   max-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   width: 20vw;
+//   .top {
+//     height: 50px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-bottom: 0.5px solid  rgb(231, 228, 228);
+//     span {
+//       font-size: 30px;
+//       font-weight: bold;
+//       color: #6439ff !important;
+//     }
+//   }
+//   li {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-top: 25px;
+//     font-size: 16px;
+//     padding: 5px;
+//     // width: 100%;
+//     cursor: pointer;
+//     &:hover {
+//       background-color: #ece8ff;
+//       width: 100%;
+//     }
+//   }
+
+//   label {
+//     font-size: 12px;
+//     margin-left: 1rem;
+//   }
+
+//   hr {
+//     height: 0px;
+//     // border: 0.5px solid  rgb(231, 228, 228);
+//     min-width: 20vw;
+//   }
+//   .centre {
+//     height: 90%;
+//     padding: 5px;
+//     span {
+//       font-size: 1.2rem;
+//     }
+//     div {
+//       margin-bottom: 5vh;
+//     }
+
+//     ul {
+//       list-style: none;
+//     }
+//   }
+// }
+
+.sidebar {
+  max-height: 100vh;
+  display: flex;
+  min-width: 20vw;
+  flex-direction: column;
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid  rgb(231, 228, 228);
+    span {
+      font-size: 30px;
+      font-weight: bold;
+      color: #6439ff !important;
+    }
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 16px;
+    padding: 5px;
+    // width: 100%;
+    cursor: pointer;
+    &:hover {
+      background-color: #ece8ff;
+      width: 100%;
+    }
+  }
+
+  label {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+
+  hr {
+    height: 0px;
+    // border: 0.5px solid  rgb(231, 228, 228);
+    min-width: 20vw;
+  }
+  .centre {
+    height: 90%;
+    padding: 5px;
+    span {
+      font-size: 1.2rem;
+    }
+    div {
+      margin-bottom: 5vh;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+}

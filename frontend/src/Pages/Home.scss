@@ -1,0 +1,117 @@
+body{
+    background-color:white
+}
+
+#title {
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #6439ff !important;
+    // animation-name: example2;
+    // animation-duration: 1s;
+}
+
+#side_title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6439ff !important;
+    // animation-name: example2;
+    // animation-duration: 1s;
+    display: none;
+}
+
+.home_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100%;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+#photo_home {
+    width: 100%;
+    border: 0 groove white;
+    border-radius: 5px;
+    // animation-name: example2;
+    // animation-duration: 1s;
+    margin-top: 20vh;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+}
+
+@keyframes example2 {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.75;}
+    100% {opacity: 1;}
+}
+
+.title_home {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.title_home > a {
+text-decoration: none;
+}
+
+.widget_home:hover {
+transform: scale(1.2);
+a {
+    color: white;
+}
+// background-color: #511e8b;
+background-color: #3e71fd;
+}
+
+.widgets_home {
+width: 50vw;
+height: 85vh;
+margin-top: 5vh;
+flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+// animation-name: example;
+// animation-duration: 1s;
+}
+
+@keyframes example {
+0%   {opacity: 0; transform: scale(0.8);}
+25%  {opacity: 0.25; transform: scale(0.9);}
+50%  {opacity: 0.5; transform: scale(1);}
+75%  {opacity: 0.75; transform: scale(1.05);}
+100% {opacity: 1; transform: scale(1);}
+}
+
+.widgets_home > div {
+display: flex;
+flex-direction: column;
+// margin: 20px;
+box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+border-radius: 5px;
+height: 15vh;
+// width: 30vh;
+width: 35%;
+padding: 10px;
+justify-content: center;
+align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .home_left {
+      display: none;
+    }
+    .widgets_home {
+        width: 100vw;
+    }
+    #side_title {
+        display: initial;
+    }
+  }

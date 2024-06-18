@@ -1,0 +1,4 @@
+.cellAction {
+    display: flex;
+    flex-wrap: wrap;
+}

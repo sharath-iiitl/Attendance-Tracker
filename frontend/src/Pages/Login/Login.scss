@@ -1,0 +1,141 @@
+.outBox {
+  // background-image: url("./bg.png");
+  // height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 25px;
+  }
+
+  button {
+    width: 100px;
+    // background-color: #2691d9;
+    border-radius: 10px;
+    height: 40px;
+    border: 0 groove;
+    font-weight: bold;
+    // background:#a64bf4;
+    // background:-webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    // background:-o-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    // background:-moz-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    background-image:linear-gradient(to right,#5dc2e3,#fc00ff);
+    // -webkit-transition:all .4s;
+    // -o-transition:all .4s;
+    // -moz-transition:all .4s;
+    // transition:all .4s
+  }
+}
+
+body{
+  background-color:white
+}
+
+#title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #6439ff !important;
+  // animation-name: example2;
+  // animation-duration: 1s;
+}
+
+#sideTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3e71fd !important;
+  // animation-name: example;
+  // animation-duration: 1s;
+}
+
+label, input {
+  // animation-name: example;
+  // animation-duration: 1s;
+}
+
+.login_title {
+  color: #3e71fd;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #3e71fd;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+    color: #3e71fd;
+// background-color: #511e8b;
+background-color: white;
+}
+
+.login_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 100%;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+#photo_login {
+  width: 75%;
+  border: 0 groove white;
+  border-radius: 5px;
+  // animation-name: example2;
+  // animation-duration: 1s;
+  margin-top: 20vh;
+}
+
+.login {
+  display: flex;
+  height: 100vh;
+}
+
+@keyframes example2 {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.25;}
+  50%  {opacity: 0.5;}
+  75%  {opacity: 0.75;}
+  100% {opacity: 1;}
+}
+
+.login_right {
+width: 50vw;
+height: 90vh;
+margin-top: 5vh;
+flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+// // animation-name: example2;
+// // animation-duration: 1s;
+}
+
+@keyframes example {
+0%   {opacity: 0; transform: scale(0.8);}
+25%  {opacity: 0.25; transform: scale(0.9);}
+50%  {opacity: 0.5; transform: scale(1);}
+75%  {opacity: 0.75; transform: scale(1.05);}
+100% {opacity: 1; transform: scale(1);}
+}
+
+@media only screen and (max-width: 800px) {
+  .login_right {
+    display: none;
+  }
+  .login_left {
+      width: 100vw;
+  }
+}
